@@ -1,0 +1,1549 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Medium.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: 500;
+}
+
+@font-face {
+    font-family: 'Netural';
+    src: url(../fonts/NeutralFace.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container .yz {
+    display: flex;
+    align-items: center;
+}
+
+.header .container .yz h2 {
+    font-size: 14px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 16px;
+    transition: .5s;
+}
+
+.header .container .yz a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.header .container .logo h2 {
+    font-size: 18px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+
+
+.header .container .log {
+    display: flex;
+    align-items: center;
+}
+
+.header .container .log .fa-magnifying-glass {
+    color: black;
+}
+
+.header .container .log .fa-user {
+    color: black;
+}
+
+.header .container .log .fa-cart-shopping {
+    color: black;
+}
+
+.header .container .log a {
+    margin-right: 20px;
+}
+
+.line {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+.pol {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pol .container {
+    display: flex;
+    justify-content: center;
+}
+
+.pol .container a {
+    text-decoration: none;
+    color: black;
+    margin-right: 45px;
+
+}
+
+.pol .container h2 {
+    font-size: 14px;
+    font-family: 'Netural';
+    font-weight: 500;
+    transition: .5s;
+
+}
+
+
+.zag .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.zag .container .title {
+    display: flex;
+}
+
+.zag .container .title h1 {
+    font-size: 138px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.zag .container .title h2 {
+    font-size: 18px;
+    font-family: 'Manrope';
+    margin-left: 10px;
+}
+
+.zag .container .title h2 {
+    margin-top: 167px;
+}
+
+.zag .container .photo {
+    display: flex;
+}
+
+.zag .container .photo1 {
+    background: url(../img/1.jpg);
+    width: 850px;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.zag .container .photo2 {
+    background: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 450px;
+    margin-left: 25px;
+}
+
+.vse {
+    margin-top: 165px;
+}
+
+.vse .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vse .container .zag {
+    font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+
+.vse .container .photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vse .container .photo .photo1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vse .container .photo .foto {
+    background: url(../img/3.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+
+.vse .container .photo .photo1 h2 {
+    font-size: 22px;
+    font-family: 'Manrope';
+}
+
+
+.vse .container .photo .photo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vse .container .photo .foto2 {
+    background: url(../img/4.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+
+.vse .container .photo .photo2 h2 {
+    font-size: 22px;
+    font-family: 'Manrope';
+}
+
+.vse .container .photo .photo3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vse .container .photo .foto3 {
+    background: url(../img/5.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+
+.vse .container .photo .photo3 h2 {
+    font-size: 22px;
+    font-family: 'Manrope';
+}
+
+.col {
+    margin-top: 170px;
+}
+
+.col .bg {
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.col .bg .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col .bg .container h2 {
+    text-align: center;
+    color: #fafafa;
+    font-size: 100px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 170px;
+}
+
+.col .bg .container h3 {
+    text-align: center;
+    color: #fafafa;
+    font-size: 32px;
+    font-family: 'Manrope';
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.col .bg .container button {
+    height: 84px;
+    width: 320px;
+    font-size: 18px;
+    font-family: 'Netural';
+    margin-top: 20px;
+}
+
+.nov {
+    margin-top: 165px;
+}
+
+.nov .container .nov1 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 74px;
+    margin-bottom: 0;
+}
+
+.nov .container .god {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 74px;
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 55px;
+}
+
+.nov .container .fot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nov .container .fot h2 {
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+
+.nov .container .fot .c1 .costum {
+    background: url(../img/7.jpg);
+    height: 485px;
+    width: 365px;
+}
+
+.nov .container .fot .c2 .costum2 {
+    background: url(../img/8.jpg);
+    height: 210px;
+    width: 370px;
+}
+
+.nov .container .fot .c2 .costum3 {
+    background: url(../img/9.jpg);
+    height: 210px;
+    width: 370px;
+}
+
+.nov .container .fot .c3 .costum4 {
+    background: url(../img/10.jpg);
+    height: 485px;
+    width: 365px;
+}
+
+.gre {
+    margin-top: 125px;
+}
+
+.gre .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gre .container .cos {
+    background: url(../img/11.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 680px;
+}
+
+.gre .container .buy .star {
+    display: flex;
+    flex-direction: column;
+}
+
+.gre .container .buy .star .otziv h2 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 52px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.gre .container .buy .star .otziv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gre .container .buy .star .otziv .faf {
+    display: flex;
+    align-items: center;
+}
+
+.gre .container .buy .star .otziv .five {
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+.gre .container .buy .star .otziv .fa-star {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.gre .container .buy .star .txt {
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+
+.gre .container .buy .size {
+    display: flex;
+    flex-direction: column;
+}
+
+.gre .container .buy .size .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gre .container .buy .size .text h2 {
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+.gre .container .buy .size .text a {
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: black;
+}
+
+.gre .container .buy .size .choise select {
+    width: 470px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
+
+}
+
+.gre .container .buy .cen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.gre .container .buy .cen h2 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.gre .container .buy .cen input {
+    width: 270px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.gre .container .buy .cen input::-webkit-input-placeholder {
+    padding-left: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.gre .container .buy .kat {
+    width: 470px;
+    height: 64px;
+    background-color: black;
+    color: #fafafa;
+    font-family: 'Netural';
+    font-size: 14px;
+}
+
+.gre .container .buy .inf {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.gre .container .buy .inf .text {
+    display: flex;
+
+}
+
+.gre .container .buy .inf .text .black {
+    color: black;
+    font-weight: 600;
+}
+
+.gre .container .buy .inf .text a {
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: rgb(192, 192, 192);
+    margin-right: 60px;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+}
+
+.gre .container .buy .inf .line {
+    width: 290px;
+    height: 2px;
+    background: linear-gradient(to right, black 23%, rgb(184, 183, 183) 23%, rgb(184, 183, 183) 100%);
+}
+
+.gre .container .buy .txt1 {
+    font-family: 'Manrope';
+    font-size: 16px;
+}
+
+.plus {
+    margin-top: 120px;
+    background-color: black;
+    height: 266px;
+}
+
+.plus .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.plus .container h2 {
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+
+.plus .container h3 {
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+}
+
+.plus .container .dost .fa-plane {
+    color: #fafafa;
+    width: 36px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.plus .container .pod .fa-user {
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.plus .container .bez .fa-lock {
+    color: #fafafa;
+    width: 30px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.plus .container .sk .fa-percent {
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.nas {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.nas .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nas .container .photo {
+    background: url(../img/12.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+}
+
+.nas .container .txt h2 {
+    font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+
+.nas .container .txt h3 {
+    font-family: 'Manrope';
+
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.pp {
+    background-color: black;
+    padding-bottom: 100px;
+
+}
+
+.pp .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pp .container h2 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 70px;
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+
+.pp .container .ras {
+    text-align: end;
+    margin-top: 0;
+}
+
+.pp .container .foto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp .container .foto .text-woman h3 {
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 40px;
+}
+
+.pp .container .foto .text-woman .woman-orange {
+    background: url(../img/13.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 365px;
+}
+
+.pp .container .foto .input h3 {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.pp .container .foto .input {
+    margin-top: 10px;
+}
+
+.pp .container .foto .input .abs {
+    width: 470px;
+    height: 50px;
+    background: none;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+
+.pp .container .foto .input .abs[type=text] {
+    padding-left: 20px;
+}
+
+.pp .container .foto .input .abs[type=tel] {
+    padding-left: 20px;
+}
+
+.pp .container .foto .input .abs[type=email] {
+    padding-left: 20px;
+}
+
+.pp .container .foto .vibor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp .container .foto .vibor label {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+}
+
+.pp .container .foto .vibor input {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.pp .container .foto .vibor .frst {
+    display: flex;
+    align-items: center;
+}
+
+.pp .container .foto .vibor .frst input {
+    margin-left: 0;
+}
+
+.pp .container .foto .vibor .scnd {
+    display: flex;
+    align-items: center;
+}
+
+.pp .container .foto .vibor .thd {
+    display: flex;
+    align-items: center;
+}
+
+.pp .container .foto .obrabotka {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.pp .container .foto .obrabotka label {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+}
+
+.pp .container .foto .obrabotka input {
+    height: 20px;
+    width: 20px;
+    margin-left: 0;
+}
+
+.pp .container .foto .input .vib-ras {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.pp .container .foto .input .send {
+    width: 470px;
+    height: 64px;
+    background-color: #fafafa;
+    color: black;
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.line2 {
+    background-color: #fafafa;
+    width: 100%;
+    height: 2px;
+}
+
+.contacts {
+    background-color: black;
+}
+
+.contacts .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contacts .container h3 {
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.contacts .container .icon {
+    display: flex;
+    align-items: center;
+}
+
+.contacts .container .fa-vk {
+    color: #fafafa;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    border: 1px solid #fafafa;
+    margin-bottom: 2px;
+
+}
+
+.contacts .container a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+
+    .pp .container .foto{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pp .container h2 {
+        font-size: 54px !important;
+        margin-left: 100px;
+    }
+
+    .pp .container .ras {
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .contacts .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nas .container .txt h2 {
+        font-size: 40px;
+    }
+
+    .nas .container .txt h3 {
+        font-size: 18px;
+    }
+
+    .plus .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .gre .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gre .container .buy {
+        margin-top: 20px;
+    }
+
+    .gre .container .cos {
+        height: 600px;
+        width: 470px;
+    }
+
+    .nov .container .new-season {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nov .container .nov1 {
+        font-size: 54px;
+        margin-left: 80px;
+    }
+
+    .nov .container .god {
+        font-size: 54px;
+        margin-right: 80px;
+    }
+
+    .col .bg {
+        height: 600px;
+    }
+
+    .col .container h2 {
+        font-size: 50px !important;
+        margin-top: 70px !important;
+    }
+
+    .col .container h3 {
+        font-size: 24px !important;
+    }
+
+    .col .container button {
+        width: 250px !important;
+        height: 70px !important;
+    }
+
+    .vse .container .zag {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vse .container .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zag .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zag .container .title h1 {
+        font-size: 110px;
+    }
+
+    .zag .container .title h2 {
+        margin-top: 138px;
+    }
+
+    .zag .container .photo .photo1 {
+        width: 690px;
+    }
+
+    .zag .container .photo .photo2 {
+        width: 260px;
+    }
+
+    .header .container {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+
+    .pp .container h2 {
+        margin-left: 50px;
+    }
+
+    .nas .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .nas .container .txt h3 {
+        font-size: 14px;
+    }
+
+    .nas .container .photo {
+        width: 300px;
+        height: 400px;
+    }
+
+    .plus .container {
+        padding-top: 60px;
+    }
+
+    .plus .container h2 {
+        font-size: 14px;
+    }
+
+    .plus .container h3 {
+        font-size: 12px;
+    }
+
+    .col .bg {
+        height: 600px !important;
+    }
+
+    .col .container h2 {
+        font-size: 54px !important;
+    }
+
+    .col .container h3 {
+        font-size: 24px !important;
+    }
+
+    .col .container button {
+        width: 170px !important;
+        height: 60px !important;
+        font-size: 12px !important;
+    }
+
+    .vse .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .vse .container .zag {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .zag .container .title h1 {
+        font-size: 74px;
+    }
+
+    .zag .container .title h2 {
+        margin-top: 100px;
+    }
+
+    .zag .container .photo .photo1 {
+        width: 450px !important;
+    }
+
+    .zag .container .photo .photo2 {
+        width: 260px !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 576px;
+    }
+
+    .contacts .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .pp .container h2 {
+        font-size: 34px !important;
+    }
+
+    .nas .container .photo {
+        height: 300px;
+    }
+
+    .nas .container .txt h2 {
+        font-size: 24px;
+    }
+
+    .nas .container .txt h3 {
+        font-size: 18px;
+    }
+
+    .nas .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nas {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+   .plus .container h2 {
+        font-size: 13px;
+    }
+
+    .plus .container h3 {
+        font-size: 11px;
+    }
+
+    .nov .container .ns {
+        font-size: 34px;
+    }
+
+    .nov .container .god {
+        font-size: 34px;
+    }
+
+    .col .bg {
+        height: 400px !important;
+    }
+
+    .col .container h2 {
+        font-size: 34px !important;
+        margin-top: 40px !important;
+    }
+
+    .col .container h3 {
+        font-size: 18px !important;
+    }
+
+    .shop .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .zag .container .title h1 {
+        font-size: 54px;
+    }
+
+    .zag .container .title h2 {
+        font-size: 14px;
+    }
+
+    .zag .container .photo .photo1 {
+        width: 330px !important;
+        background-position-x: -310px !important;
+    }
+
+    .zag .container .photo .photo2 {
+        width: 200px !important;
+    }
+
+    .pol .container a {
+        margin-right: 20px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 480px;
+    }
+
+    .mono .container .monocr {
+        font-size: 34px !important;
+    }
+
+    .sub .container h2 {
+        margin-top: 40px;
+    }
+
+    .pp .container .foto .text-woman h3 {
+        font-size: 16px
+    }
+
+    .pp .container .foto .text-woman .woman-orange {
+        width: 400px !important;
+    }
+
+    .pp .container .foto .input {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .pp .container .foto .input .abs {
+        width: 400px !important;
+    }
+
+    .pp .container .foto .input .vibor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pp .container .foto .input .vibor .scnd input {
+        margin-left: 0;
+    }
+
+    .pp .container .foto .input .vibor .thd input {
+        margin-left: 0;
+    }
+
+    .pp .container .foto .input button {
+        width: 400px !important;
+    }
+
+    .pp .container h2 {
+        margin-left: 40px !important;
+    }
+
+    .about .container .txtw h3 {
+        font-size: 15px !important;
+    }
+
+    .plus .container h2 {
+        font-size: 11px !important;
+    }
+
+    .plus .container h3 {
+        font-size: 8px !important;
+    }
+
+    .plus .container {
+        padding-top: 50px !important;
+    }
+
+    .plus {
+        margin-top: 40px !important;
+        height: 220px !important;
+    }
+
+    .gre .container .buy .choise select {
+        width: 400px !important;
+    }
+
+    .gre .container .buy .cen input {
+        width: 200px !important;
+        margin-left: 20px !important;
+    }
+
+    .gre .container .buy .cen h2 {
+        margin-right: 20px !important;
+    }
+
+    .gre .container .buy button {
+        width: 400px !important;
+    }
+
+    .gre .container .buy {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gre .container .buy .txt1 {
+        font-size: 14px !important;
+    }
+
+    .gre .container .cos {
+        width: 400px !important;
+        height: 500px !important;
+    }
+
+    .gre {
+        margin-top: 40px !important;
+    }
+
+    .nov {
+        margin-top: 40px !important;
+    }
+
+    .col {
+        margin-top: 40px !important;
+    }
+
+    .col .container h3 {
+        font-size: 14px !important;
+    }
+
+    .col .container button {
+        width: 140px !important;
+        height: 50px !important;
+        font-size: 10px !important;
+    }
+
+    .vse {
+        margin-top: 40px !important;
+    }
+
+    .zag .container .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zag .container .photo .photo1 {
+        width: 450px !important;
+        height: 180px !important;
+        background-position-x: -10px !important;
+    }
+
+    .zag .container .photo .photo2 {
+        width: 450px !important;
+        height: 180px !important;
+        margin-left: 0;
+        margin-top: 10px !important;
+        background-size: cover;
+        background-position-y: -30px !important;
+    }
+
+    .zag .container .title h2 {
+        font-size: 12px !important;
+        margin-top: 63px !important;
+    }
+
+    .pol .container a {
+        margin-right: 10px !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+
+    .pp .container h2 {
+        font-size: 18px !important;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .pp .container .ras {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .pp .container .foto .text-woman h3 {
+        font-size: 11px !important;
+    }
+
+    .pp .container .foto .text-woman .woman-orange {
+        width: 270px !important;
+    }
+
+    .pp .container .foto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pp .container .foto .input .abs {
+        width: 260px !important;
+    }
+
+    .pp .container .foto .input button {
+        width: 260px !important;
+    }
+
+    .pp .container .foto .input {
+        padding: 0 !important;
+        width: 270px !important;
+    }
+
+    .nas .container .txt h3 {
+        font-size: 11px !important;
+    }
+
+    .nas .container .photo {
+        width: 270px !important;
+    }
+
+    .plus .container .dost .fa-plane {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    .plus .container .pod .fa-user {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    .plus .container .bez .fa-lock {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    .plus .container .sk .fa-percent {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    .plus .container {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .plus .container h2 {
+        font-size: 7px !important;
+    }
+
+    .plus .container h3 {
+        font-size: 8px !important;
+    }
+
+    .gre .container .buy {
+        padding-right: 0 !important;
+        margin-right: 20px !important;
+    }
+
+    .gre .container .cos {
+        width: 270px !important;
+        height: 480px !important;
+    }
+
+    .gre .container .buy .choise select {
+        width: 280px !important;
+    }
+
+    .gre .container .buy .cen input {
+        width: 200px !important;
+        margin-left: 5px !important;
+    }
+
+    .gre .container .buy button {
+        width: 220px !important;
+        margin-top: 20px !important;
+    }
+
+    .gre .container .star .otziv h2 {
+        font-size: 18px !important;
+    }
+
+    .gre .container .star .txt {
+        font-size: 16px !important;
+    }
+
+    .gre .container .buy .cen h2 {
+        font-size: 18px !important;
+        margin-right: 0 !important;
+    }
+
+    .gre .container .buy .inf .text a {
+        font-size: 10px !important;
+        margin-left: 10px !important;
+        margin-right: 40px !important;
+    }
+
+    .gre .container .buy .txt1 {
+        font-size: 10px !important;
+    }
+
+    .nov .container .nov1 {
+        font-size: 18px !important;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .nov .container .god {
+        font-size: 18px !important;
+        justify-content: center;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .nov .container .fot .c1 .costum {
+        width: 260px !important;
+        height: 350px !important;
+        background-position-x: -80px;
+    }
+
+    .nov .container .fot .c1 h2 {
+        font-size: 16px !important;
+    }
+
+    .nov .container .fot .c2 .costum2 {
+        width: 260px !important;
+    }
+
+    .nov .container .fot .c2 .costum3 {
+        width: 260px !important;
+    }
+
+    .nov .container .fot .c2 h2 {
+        font-size: 16px !important;
+    }
+
+    .nov .container .fot .c3 .costum4 {
+        width: 260px !important;
+    }
+
+    .nov .container .fot .c3 h2 {
+        font-size: 16px !important;
+    }
+
+    .col .bg {
+        height: 300px !important;
+    }
+
+    .col .bg .container h2 {
+        font-size: 20px !important;
+    }
+
+    .col .bg .container h3 {
+        font-size: 10px !important;
+    }
+
+    .col .bg .container button {
+        width: 100px !important;
+        height: 30px !important;
+        font-size: 7px !important;
+    }
+
+    .mono .container .monocr {
+        font-size: 18px !important;
+    }
+
+    .vse .container .photo h2 {
+        font-size: 16px !important;
+    }
+
+    .vse .container .photo .photo1 .foto {
+        width: 255px !important;
+        height: 300px !important;
+    }
+
+    .vse .container .photo .photo2 .foto2 {
+        width: 255px !important;
+        height: 300px !important;
+    }
+
+    .vse .container .photo .photo3 .foto3{
+        width: 255px !important;
+        height: 300px !important;
+    }
+
+    .zag .container .title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zag .container .title h1 {
+        font-size: 34px !important;
+    }
+
+    .zag .container .title h2 {
+        font-size: 14px !important;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+
+    .zag .container .photo .photo1 {
+        width: 255px !important;
+        background-position-x: -60px !important;
+    }
+
+    .zag .container .photo .photo2 {
+        width: 255px !important;
+    }
+
+    .pol .container h2 {
+        font-size: 9px !important;
+    }
+
+    .pol .container a {
+        margin-right: 5px !important;
+    }
+
+    .header .container .yz .set img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .header .container .yz h2 {
+        font-size: 10px !important;
+    }
+
+    .header .container .yz a {
+        margin-top: 5px !important;
+    }
+
+    .header .container .logo h2 {
+        font-size: 12px !important;
+    }
+
+    .header .container .log .fa-magnifying-glass {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .header .container .log a {
+        margin-right: 5px !important;
+    }
+
+    .header .container .log .fa-user {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .header .container .log .fa-cart-shopping {
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    .header .container {
+        padding-left: 5px !important;
+        display: flex;
+        align-items: center;
+    }
+}
